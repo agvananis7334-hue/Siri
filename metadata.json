@@ -1,0 +1,6 @@
+{
+  "name": "Siri AI Assistant",
+  "description": "Siri-style AI voice assistant for Vivo T3 with offline speech recognition, device controls, offline AI answering, and hybrid intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

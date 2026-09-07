@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer luminous halo ring -->
+    <path
+        android:pathData="M54,26 A28,28 0 1,1 53.9,26 Z"
+        android:strokeWidth="3">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="26"
+                android:startY="26"
+                android:endX="82"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00F0FF" />
+                <item android:offset="0.5" android:color="#D500F9" />
+                <item android:offset="1.0" android:color="#3D5AFE" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Mid Siri luminous ring -->
+    <path
+        android:pathData="M54,32 A22,22 0 1,1 53.9,32 Z"
+        android:strokeWidth="2.5">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="80"
+                android:startY="32"
+                android:endX="28"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF007F" />
+                <item android:offset="0.6" android:color="#00E5FF" />
+                <item android:offset="1.0" android:color="#7C4DFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center Core Glow Sphere -->
+    <path
+        android:pathData="M54,38 A16,16 0 1,1 53.9,38 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="38"
+                android:endX="68"
+                android:endY="70"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#E0FFFFFF" />
+                <item android:offset="0.4" android:color="#CC00F5FF" />
+                <item android:offset="0.8" android:color="#B3D500F9" />
+                <item android:offset="1.0" android:color="#803D5AFE" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Central Siri Voice Wave bars -->
+    <path
+        android:pathData="M44,51 L44,57 M48,47 L48,61 M52,43 L52,65 M56,43 L56,65 M60,47 L60,61 M64,51 L64,57"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+</vector>
+
